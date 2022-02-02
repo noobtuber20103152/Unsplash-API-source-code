@@ -1,0 +1,23 @@
+#FrontPage{
+  background-image:url('https://source.unsplash.com/1600x900/?nature,water');
+  height:80vh;
+  background-size: cover;
+
+}
+.categotyClass{
+  text-decoration: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(0,0,0,0.6);
+  font-weight: 550;
+}
+.categoryClass:hover{
+  color: black;
+}
+.Images{
+  transform: scale(1);
+  transition: 1s;
+}
+.Images:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
